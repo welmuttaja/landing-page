@@ -1,3 +1,57 @@
 body {
-    
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+/* Everything related to header */
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+/* Everything related to introduction */
+.introduction {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.introduction h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+/* Everything related to referrals */
+.referrals {
+    display: flex;
+}
+
+/* Everything related to quote */
+.quote {
+    display: flex;
+    background-color: #E5E7EB
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+}
+
+/* Everything related to sign-up */
+.signup {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.signup h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+/* Everything related to footer */
+.footer {
+    background-color: #1F2937;
 }
