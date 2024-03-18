@@ -35,16 +35,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
-    align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 150px;
+    padding: 5px 5px 150px 5px;
     gap: 50px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 5px;
     max-width: 400px;
 }
@@ -71,6 +69,28 @@ body {
 /* Everything related to referrals */
 .referrals {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 5px 150px 5px;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.text {
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
 }
 
 /* Everything related to quote */
