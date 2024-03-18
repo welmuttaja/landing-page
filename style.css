@@ -6,6 +6,8 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
 }
 
 /* Everything related to header */
@@ -52,7 +54,7 @@ body {
 .container h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -87,6 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 150px;
+    gap: 5px;
 }
 
 .text {
@@ -112,6 +115,7 @@ body {
 .quote-text {
     color: #1F2937;
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     max-width: 800px;
 }
