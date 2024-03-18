@@ -96,13 +96,31 @@ body {
 /* Everything related to quote */
 .quote {
     display: flex;
-    background-color: #E5E7EB
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
     color: #1F2937;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.quote-signature {
+    display: flex;
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 40px;
 }
 
 /* Everything related to sign-up */
